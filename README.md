@@ -34,6 +34,7 @@ Follow these steps to set up and work on your project:
 
 - [ ] Create a forked copy of this project.
 - [ ] Clone your OWN version of the repository: git clone git@github.com:bloominstituteoftechnology/web-unit-1-bw-advanced-assignments.git
+- [ ] To open each project, drag the HTML file into your browser like a tab. [See here](https://www.youtube.com/watch?v=nqN_VPvMpW4) if needed.
 - [ ] Implement the project, committing changes regularly: git commit -m "message goes here"
 - [ ] Push commits: git push
  
@@ -52,4 +53,4 @@ The following goals are designed to stretch your knowledge and may require addit
 - [ ] Learn more about how the browser works and what the DOM is.
 - [ ] Learn more about event propagation.
 - [ ] Try creating a page entirely from elements you've created with JavaScript via the DOM.
-- [ ] Explore the [React Website](https://reactjs.org/) and use the create-react-app script to create your first React project!
+- [ ] Explore the [React Documentation Website](https://reactjs.org/) and use the create-react-app script to create your first React project!
