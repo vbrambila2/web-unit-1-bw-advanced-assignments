@@ -22,7 +22,9 @@ The second project is a modal, or a popup window. You will need to set the popup
 
 The third project is a scroll progress bar. You will need to keep track of how far down the page you have scrolled out of the total length of the page, then fill up the bar based on that number as it changes. This will require you to use a scroll event. Here's an [example](https://vuejsexamples.com/content/images/2019/03/vue-scroll-progress.gif).
 
-The fourth and final project is significantly more challenging than the rest- a game of rock, paper, scissors! You have already implemented the base logic of this game once before, but now we're going to attach a User Interface to it and keep track of the score count. The FontAwesome Rock/Paper/Scissor hand symbols are already embedded and available for you to use, so take advantage of the resource. Here's an example of what the solution code looks like! ![](public/r-p-s.png)
+The fourth and final project is significantly more challenging than the rest- a game of rock, paper, scissors! You have already implemented the base logic of this game once before, but now we're going to attach a User Interface to it and keep track of the score count. The FontAwesome Rock/Paper/Scissor hand symbols are already embedded and available for you to use, so take advantage of the resource. Here's an example of what the solution code looks like! 
+
+![](public/r-p-s.png)
 
 ## Instructions
 
