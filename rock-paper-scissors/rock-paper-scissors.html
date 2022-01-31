@@ -6,10 +6,45 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="rock-paper-scissors.css" />
-    <script type="text/javascript" src="rock-paper-scissors.js" async></script>
+    <script type="text/javascript" src="rock-paper-scissors.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/e391ce7786.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  
-  <body>
 
+  <body>
+    <div class="container">
+      <div class="text-container">
+        <h1>Rock, Paper, Scissors</h1>
+        <h2 id="victoryText">Can you beat the computer?</h2>
+      </div>
+
+      <div class="play-container">
+        <section class="player">
+          <div class="score">
+            <h2>Human: <span id="humanScore">0</span></h2>
+          </div>
+          <div class="display-container-human">
+            <i class="fas fa-hand-rock"></i>
+          </div>
+        </section>
+
+        <section class="player">
+          <div class="score">
+            <h2>Computer: <span id="computerScore">0</span></h2>
+          </div>
+          <div class="display-container-computer">
+            <i class="fas fa-hand-rock"></i>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <section class="selection-container">
+      <button class="fas fa-hand-rock" id="rock"></button>
+      <button class="fas fa-hand-paper" id="paper"></button>
+      <button class="fas fa-hand-scissors" id="scissors"></button>
+    </section>
   </body>
 </html>
