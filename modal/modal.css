@@ -32,6 +32,7 @@ body button:hover {
     padding: 30px;
     margin: 20px 0;
     background-color: greenyellow;
+    z-index: 1000;
 }
 
 .close {
@@ -52,11 +53,11 @@ body button:hover {
     display: none;
  }
 
- .modal-overlay {
-     display: none;
- }
-
- .modal-overlay.visible {
-     background-color: black;
-    opacity: 0.5;
-  }
+ .modalBackdrop{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0,0,0,0.2);
+}
