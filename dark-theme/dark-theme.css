@@ -2,3 +2,79 @@
 
 /* you need to implement styles for your dark and your light theme */
 /* which will be the default? up to you */
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+body h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+body button {
+    padding: 20px;
+    background-color: darkgray;
+}
+
+body button:hover {
+    cursor: pointer;
+}
+
+body p {
+    margin: 20px auto;
+}
+
+.one {
+    color: lightsalmon;
+    width: 200px;
+    border: solid 2px black;
+    background-color: black;
+}
+
+.two {
+    color: lightskyblue;
+    width: 200px;
+    border: solid 2px black;
+    background-color: black;
+}
+
+.three {
+    color: lightgreen;
+    width: 200px;
+    border: solid 2px black;
+    background-color: black;
+}
+
+.dark-mode {
+    background-color: black;
+}
+
+.dark-mode h2 {
+    color: white;
+}
+
+.dark-mode button {
+    background-color: lightgray;
+}
+
+.dark-mode .one {
+    color: black;
+    background-color: orange;
+    border: solid 2px white;
+}
+
+.dark-mode .two {
+    color: black;
+    background-color: lightskyblue;
+    border: solid 2px white;
+}
+
+.dark-mode .three {
+    color: black;
+    background-color: greenyellow;
+    border: solid 2px white;
+}

@@ -1,3 +1,62 @@
 /* don't forget your reset! */
 /* the visibility of your modal is based in CSS */
 /* it would be easier to get the html and css looking right for both first, then set the modal to be hidden */
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+body h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+body button {
+    padding: 20px;
+}
+
+body button:hover {
+    cursor: pointer;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    background-color: greenyellow;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .hidden{
+    display: none;
+ }
+
+ .modal-overlay {
+     display: none;
+ }
+
+ .modal-overlay.visible {
+     background-color: black;
+    opacity: 0.5;
+  }
