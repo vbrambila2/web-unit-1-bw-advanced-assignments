@@ -1,1 +1,130 @@
 /* for the most part, your styles are up to you this time; just make it look nice */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #242222;
+    color: #fff;
+    font-family: 'Syne Tactile';
+}
+/* To center everything in game */
+.game{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+ 
+/* Title of the game */
+.title{
+    position: absolute;
+    top: 0;
+    font-size: 4rem;
+    z-index: 2;
+}
+ 
+/* Score Board */
+.score{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 8rem;
+    z-index: 1;
+}
+ 
+/* Score  */
+.p-count,.c-count{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+ 
+/* displaying three buttons in one line */
+.options{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+ 
+/* Styling on all three buttons */
+.rock, .paper, .scissor{
+    padding: 0.8rem;
+    width: 150px;
+    border-radius: 10px;
+    background: rgb(212, 216, 212);
+    outline: none;
+    border-color: white;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 2rem;
+}
+ 
+.move{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.movesLeft {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+ 
+/* Reload button style */
+.reload {
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
+.result{
+    margin-top: 20px;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choices .p-choice {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.choices .c-choice {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+}
+ 
+/* Responsive Design */
+@media screen and (max-width: 612px)
+{ 
+    .title{
+        text-align: center;
+    }
+    .score{
+        position: absolute;
+        top: 200px;
+        width: 100vw;
+    }
+    .options{
+        width: 100vw;
+    }
+}

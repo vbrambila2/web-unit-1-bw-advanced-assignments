@@ -6,6 +6,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="rock-paper-scissors.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+
     <script type="text/javascript" src="rock-paper-scissors.js" defer></script>
     <script
       src="https://kit.fontawesome.com/e391ce7786.js"
@@ -17,11 +21,65 @@
     <!-- make an area to display some text about the game and to display who won the round -->
     <!-- make an area to display the human score and computer score -->
     <!-- make an area to display your move and the computer's move -->
-    <div>
-      <!-- this area will be where you pick your move -->
-      <button class="fas fa-hand-rock" id="rock"></button>
-      <button class="fas fa-hand-paper" id="paper"></button>
-      <button class="fas fa-hand-scissors" id="scissors"></button>
-    </div>
+    
+<!-- index.html -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+                   initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <section class="game">
+        <!--Title -->
+        <div class="title">Drunk Rock Paper Scissors</div>
+         
+          <!--Display Score of player and computer -->
+        <div class="score"> 
+            <div class="playerScore">
+                <h2>Playa</h2>
+                <p class="p-count count">0</p>
+ 
+            </div>      
+            <div class="computerScore">
+                <h2>Cumcooter</h2>
+                <p class="c-count count">0</p>
+ 
+            </div>
+        </div>
+        <section class="choices">
+          <div class="p-choice"></div>
+          <div class="c-choice"></div>
+        </section>
+        
+       
+        <div class="move">Pick Your Poison</div>
+         
+          <!--Number of moves left before game ends -->
+        <div class="movesLeft">Moves Left: 10 </div>
+         
+          <!--Options available to player to play game -->
+        <div class="options">
+            <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissor">Scissors</button>   
+        </div>
+         
+          <!--Final result of game -->
+        <div class="result"></div>
+         
+          <!--Reload the game -->
+        <button class="reload"></button>
+ 
+    </section>
+ 
+    <script src="app.js"></script>
+</body>
+</html>
   </body>
 </html>
